@@ -14,7 +14,7 @@
 
 ## The challenge
 
-Given the limited options to enable automatic tuning, currently **it is not possible to enable it through Azure CLI nor ARM (Azure Resource Manager) template**, the sample in this repository provides an alternitive deployment option. It expands on the T-SQL command option to enable automatic tuning mode in an individual Azure SQL database, using Terraform.
+Given the limited options to enable automatic tuning, currently **it is not possible to enable it through Azure CLI nor ARM (Azure Resource Manager) template**, the sample in this repository provides an alternative deployment option. It expands on the T-SQL command option to enable automatic tuning mode in an individual Azure SQL database, using Terraform.
 
 As of today, **it also not possible to enable this feature using Terraform `azurerm_mssql_database` resource**. Therefore, we will make use of the `null_resource` resource instead.
 
