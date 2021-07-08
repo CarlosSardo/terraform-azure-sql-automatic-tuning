@@ -69,7 +69,7 @@ ALTER DATABASE current SET AUTOMATIC_TUNING (CREATE_INDEX = ON);
 After cloning this repository and installing the basic requirements, run the following commands in the `./src/terraform` directory:
 
 ```bash
-# Login to and Azure subscription
+# Login to an Azure subscription
 az login
 
 # Tnitialize, Plan and Apply this sample's Azure infrastructure using Terraform
