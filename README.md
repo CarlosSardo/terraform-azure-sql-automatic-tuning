@@ -72,8 +72,11 @@ After cloning this repository and installing the basic requirements, run the fol
 # Login to an Azure subscription
 az login
 
-# Tnitialize, Plan and Apply this sample's Azure infrastructure using Terraform
+# Tnitializes Terraform
 terraform init
+
+# Plans and Applies this sample's Azure infrastructure using Terraform
+# It will prompt you for your current IP Address
 terraform plan
 terraform apply
 ```
