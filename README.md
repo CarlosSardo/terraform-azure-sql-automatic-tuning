@@ -18,7 +18,7 @@ Given the limited options to enable automatic tuning, currently **it is not poss
 
 As of today, **it also not possible to enable this feature using Terraform `azurerm_mssql_database` resource**.
 
-Therefore, this solution makes use of the `null_resource` Terraform resource the `sqlcmd` utility instead.
+Therefore, this solution uses the `null_resource` Terraform resource together with the `sqlcmd` utility instead.
 
 ## :wrench: How does it work?
 
